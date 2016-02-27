@@ -36,3 +36,18 @@ cacheSolve <- function(x, ...) {
   inv
 
 }
+
+
+## test run
+#> test_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
+#> cacheSolve(test_matrix)
+#Returning freshly computed value.
+#[,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+#> cacheSolve(test_matrix)
+#Already computed. Returning cached value.
+#[,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+#> 
